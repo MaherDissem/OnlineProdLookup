@@ -9,7 +9,7 @@ The retrieved information is then added to the input JSON.
 
 # Folder structure
 ```
-├── app/                             # Source code directory
+├── app/                      # Source code directory
 │   ├── middleware.py 
 │   │    ├── config.py        # Sets configuration parameters.
 │   │    ├── local_llm.py     # Code for running a local LLM using Ollama.
@@ -21,7 +21,7 @@ The retrieved information is then added to the input JSON.
 │   │    └── processPrompt.py # Extracts product information from the scraped URLs.
 │   ├── templates/
 │   │    └── form.html        # FastAPI HTML template for user input.
-│   ├── main.py               # FastAPI server entry point.
+│   └── main.py               # FastAPI server entry point.
 ```
 
 ## Installation
@@ -36,7 +36,7 @@ cd OnlineProdLookup
 ### 2. Create and activate a virtual environment
 ```
 python -m venv virtual
-source 
+source virtual/bin/activate
 ```
 
 ### 3. Install dependencies
