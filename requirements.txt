@@ -1,0 +1,12 @@
+requests==2.32.3
+responses==0.18.0
+ollama==0.3.3
+google-generativeai==0.8.3
+duckduckgo_search==6.3.4
+python-multipart==0.0.17
+fastapi==0.115.5
+uvicorn==0.27.1
+jinja2==3.1.4
+beautifulsoup4==4.12.3
+selenium==4.26.1
+webdriver_manager==4.0.2
